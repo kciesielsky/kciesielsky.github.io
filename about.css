@@ -1,0 +1,56 @@
+#aboutMeFlexContainer{
+    width: 100%;
+    margin:auto;
+    margin-top: 10px;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#aboutMeAvatarDiv{
+    border: 1px solid red;
+    width: 500px;
+    background-color: #191919;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#aboutMeAvatarDiv > h1{
+    margin-top: -5px;
+    margin-bottom: -20px;
+}
+
+#aboutMeAvatarDiv > img {
+    width: 500px;
+    height: 500px;
+}
+
+#aboutMeDetailsBox{
+    width: 1000px;
+}
+#aboutMeBoxDiv1{
+    margin-left: 60px;
+    margin-top: 60px;
+    border: 1px solid red;
+    padding: 10px;
+    width: 700px;
+    background-color: #191919;
+}
+
+#aboutMeBoxDiv2{
+    float: right;
+    padding: 10px;
+    border: 1px solid red;
+    width: 500px;
+    background-color: #191919;
+    margin-bottom: 140px;
+}
+
+#aboutMeBoxDiv3{
+    padding: 10px;
+    width: 600px;
+    clear:both;
+    border: 1px solid red;
+    background-color: #191919;
+    float: left;
+}

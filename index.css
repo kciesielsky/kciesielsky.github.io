@@ -1,0 +1,36 @@
+#portfolioFlexBox{
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 85%;
+}
+
+.portfolioFlexBoxDiv{
+    margin: 20px;
+    padding: 0 40px 40px 40px;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, black, rgb(46, 42, 42));
+    width: 280px;
+    height: 280px;
+    border: 1px solid red;
+}
+
+.portfolioFlexBoxDiv >img{
+    margin-left: -40px;
+    width: 360px;
+    height: 200px;
+}
+.portfolioFlexBoxDiv >h1{
+    margin: 15px 0 0 0;
+}
+
+a > div{
+    color: white;
+}
+
+a > div:hover{
+    background-image: linear-gradient(to bottom right, red, rgb(100, 24, 24));
+}
